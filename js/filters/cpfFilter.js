@@ -1,4 +1,4 @@
-angular.module("listaTelefonica").filter("cpf", function () {
+angular.module("listaPessoal").filter("cpf", function () {
 	return function (input) {
 		
 		

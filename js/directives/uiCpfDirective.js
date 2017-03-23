@@ -1,4 +1,4 @@
-angular.module("listaTelefonica").directive("uiCpf", function ($filter) {
+angular.module("listaPessoal").directive("uiCpf", function ($filter) {
 	return {
 		require: "ngModel",
 		link: function (scope, element, attrs, ctrl) {
